@@ -5,7 +5,7 @@ import { ExpressAdapter } from 'ask-sdk-express-adapter';
 import mongoose from 'mongoose';
 import axios from "axios";
 
-mongoose.connect('mongodb+srv://Zaid:Zaid1sheikh@cluster0.irbv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://dbu:dbp@cluster0.xowtt.mongodb.net/alexa-custom-endpoint?retryWrites=true&w=majority');
 
 const Usage = mongoose.model('Usage', {
   skillName: String,
